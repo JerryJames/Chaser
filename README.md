@@ -1,2 +1,2 @@
 # Chaser Theam, 
-Its an WordPress theam.
+Its a WordPress theam.
