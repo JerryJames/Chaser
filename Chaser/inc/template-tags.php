@@ -398,9 +398,7 @@ function chaser_footer_text() {
 	<span class="credit-link">
 		<?php
 		// translators: Theme Name and Link to ThemeZee.
-		printf( esc_html__( 'WordPress Theme: %1$s by %2$s.', 'chaser' ),
-			esc_html__( 'Chaser', 'chaser' ),
-			'<a href="https://themezee.com/" target="_blank" rel="nofollow">ThemeZee</a>'
+		printf( esc_html__( 'All Right reserved to ITMRK, copy right @2020...', 'chaser' )
 		);
 		?>
 	</span>

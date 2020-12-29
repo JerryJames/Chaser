@@ -28,11 +28,7 @@ if ( class_exists( 'WP_Customize_Control' ) ) :
 				<?php echo esc_html( $this->description ); ?>
 			</span>
 
-			<p>
-				<a href="<?php echo esc_url( network_admin_url( 'plugin-install.php?tab=search&type=tag&s=themezee' ) ); ?>" class="button button-secondary">
-					<?php esc_html_e( 'Install Plugin', 'chaser' ); ?>
-				</a>
-			</p>
+
 
 			<?php
 		}

@@ -11,7 +11,7 @@
 function chaser_theme_addons_setup() {
 
 	// Add theme support for Chaser Pro plugin.
-	add_theme_support( 'chaser-pro' );
+	add_theme_support( 'wellington-pro' );
 
 	// Add theme support for ThemeZee Plugins.
 	add_theme_support( 'themezee-breadcrumbs' );

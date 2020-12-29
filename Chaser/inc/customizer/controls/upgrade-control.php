@@ -22,17 +22,12 @@ if ( class_exists( 'WP_Customize_Control' ) ) :
 
 			<div class="upgrade-pro-version">
 
-				<span class="customize-control-title"><?php esc_html_e( 'Pro Version Add-on', 'chaser' ); ?></span>
+				<span class="customize-control-title"><?php esc_html_e( 'Chaser Thems V1.0.0', 'chaser' ); ?></span>
 
 				<span class="textfield">
-					<?php printf( esc_html__( 'Purchase the %s Pro Add-on to get additional features and advanced customization options.', 'chaser' ), 'Chaser' ); ?>
+					<?php printf( esc_html__( 'Welcome to %s Thems.', 'chaser' ), 'Chaser' ); ?>
 				</span>
 
-				<p>
-					<a href="<?php echo esc_url( __( 'https://themezee.com/addons/chaser-pro/', 'chaser' ) ); ?>?utm_source=customizer&utm_medium=button&utm_campaign=chaser&utm_content=pro-version" target="_blank" class="button button-secondary">
-						<?php printf( esc_html__( 'Learn more about %s Pro', 'chaser' ), 'Chaser' ); ?>
-					</a>
-				</p>
 
 			</div>
 

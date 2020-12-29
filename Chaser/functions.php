@@ -261,10 +261,45 @@ function chaser_add_image_size_names( $sizes ) {
 }
 add_filter( 'image_size_names_choose', 'chaser_add_image_size_names' );
 
+/**************************************************************************************
+ *  Following code spinet are added to update the login screen Logo and Link.
+ * ************************************************************************************/
+/* IN below finction Logo path meeds to update manualy */
+
+function my_login_logo() { ?>
+    <style type="text/css">
+        #login h1 a, .login h1 a {
+        background-image: url('http://127.0.0.1/wp/wp-content/uploads/2020/12/ITMRK-Login-Logo_80.png');
+		height:80px;
+		width:80px;
+		background-size: 80px 80px;
+		background-repeat: no-repeat; 
+        	padding-bottom: 0px;
+        }
+    </style>
+<?php }
+add_action( 'login_enqueue_scripts', 'my_login_logo' );
+
+function my_login_logo_url() {
+    return home_url();
+}
+add_filter( 'login_headerurl', 'my_login_logo_url' );
+
+function my_login_logo_url_title() {
+    return 'Please Login to ITMRK';
+}
+add_filter( 'login_headertitle', 'my_login_logo_url_title' );
+
+/**************************************************************************************
+ *  End of Login Screen update.
+ * ************************************************************************************/
+
+
 
 /**
  * Include Files
  */
+
 
 // Include Theme Info page.
 require get_template_directory() . '/inc/theme-info.php';
