@@ -1,1 +1,2 @@
-# Chaser Theam, Its an wprdpress theam.
+# Chaser Theam, 
+Its an WordPress theam.
