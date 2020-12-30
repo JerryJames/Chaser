@@ -269,7 +269,7 @@ add_filter( 'image_size_names_choose', 'chaser_add_image_size_names' );
 function my_login_logo() { ?>
     <style type="text/css">
         #login h1 a, .login h1 a {
-        background-image: url('http://127.0.0.1/wp/wp-content/uploads/2020/12/ITMRK-Login-Logo_80.png');
+        background-image: url('http://itmrk.com/wp-content/uploads/2020/12/ITMRK-Login-Logo_80.png');
 		height:80px;
 		width:80px;
 		background-size: 80px 80px;
